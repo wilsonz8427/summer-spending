@@ -1,0 +1,10 @@
+#landing {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(30, 175, 237, 0.6),
+    rgba(26, 165, 26, .4)),
+    url('') no-repeat center;
+    background-size: cover;
+}
+
