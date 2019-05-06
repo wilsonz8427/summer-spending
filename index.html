@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Summer Spending</title>
-  <!--Boostrap CSS and JS-->
+  <!--Boostrap CSS-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
   <!--jQuery Library-->
   <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+
+  <!--Boostrap JS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
   <!--Custom-->
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -31,29 +32,28 @@
     <div id="family-fun">
       <h4>Go on a Family Trip</h4>
       <p>Some ideas could be:</p>
-      <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#hiking">Hiking</a></li>
-        <li><a data-toggle="tab" href="#beach">Beach</a></li>
-        <li><a data-toggle="tab" href="#amusep">Amusement Park</a></li>
-      </ul>
 
+      <div class="row row-spacing">
+        <div class="col-xs-6 col-xs-offset-0">
+          <button type="button" class="btn btn-info" id="hikebut">Hiking</button>
+          <p class="hidden" id="hikeinfo">Information about Hiking</p>
+        </div>
 
+        <div class="col-xs-6 col-xs-offset-0">
+          <button type="button" class="btn btn-info" id="beachbut">Beach</button>
+          <p class="hidden" id="beachinfo">Information about Beach</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-0">
+          <button type="button" class="btn btn-info" id="amusebut">Amusement Park</button>
+          <p class="hidden" id="amuseinfo">Information about Amusement</p>
+        </div>
+        
+        
+      </div>
     </div>
-    <div class="tab-content">
-      <div id="hiking" class="tab-pane fade in active">
-        <h3>Hiking</h3>
-        <p>Some content.</p>
-      </div>
-      <div id="beach" class="tab-pane fade">
-        <h3>Beach</h3>
-        <p>Some content in menu 1.</p>
-      </div>
-      <div id="amusep" class="tab-pane fade">
-        <h3>Amusement Park</h3>
-        <p>Some content in menu 2.</p>
-      </div>
-    </div>
-  </div>
   </div>
 
   <!--B   indoor-->
