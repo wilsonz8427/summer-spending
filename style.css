@@ -22,9 +22,9 @@ h1 {
     display: table-cell;
 }
 
-
-
-
+.p {
+    display:none;
+}
 
 
 
