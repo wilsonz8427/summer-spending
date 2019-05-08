@@ -21,6 +21,13 @@ h1 {
     vertical-align: middle;
     display: table-cell;
 }
+#cook, #party, #game {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
 
 .row-spacing {
     margin-bottom: 150px;
@@ -28,4 +35,17 @@ h1 {
 
 #outdoor {
     padding-bottom: 100px
+}
+
+#left-arrow {
+    position: absolute;
+    top:100px;
+    background: green;
+}
+
+#right-arrow {
+    position: absolute;
+    left: 750px;
+    top:100px;
+    background: red;
 }
