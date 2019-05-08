@@ -1,7 +1,31 @@
 $(function() {
-    $('body').fadeIn(2000);
+    $('body').fadeIn(1500);
     
-    $('.button').click(function(){
-        $(this).;
+    
+    $('#cook').click(function(){
+        $('#cookp').toggleClass('hidden');
     });
+    
+    $('#game').click(function(){
+        $('#gamep').toggleClass('hidden');
+    });
+    
+    $('#party').click(function(){
+        $('#partyp').toggleClass('hidden');
+    });
+    
+    
+    $('#hikebut').click(function(){
+        $('#hikeinfo').toggleClass('hidden');
+    });
+    
+    $('#beachbut').click(function(){
+        $('#beachinfo').toggleClass('hidden');
+    });
+    
+    $('#amusebut').click(function(){
+        $('#amuseinfo').toggleClass('hidden');
+    });
+
 });
+    
