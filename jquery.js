@@ -23,5 +23,30 @@ $(function() {
         $('#amuseinfo').toggleClass('hidden');
     });
 
+
+    $('#left-arrow').click(function() {
+        
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
-    
