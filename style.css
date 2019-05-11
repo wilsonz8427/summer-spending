@@ -1,7 +1,9 @@
-html, body {
-    width:100%;
+html,
+body {
+    width: 100%;
     height: 100%
 }
+
 #landing {
     display: table;
     width: 100%;
@@ -21,7 +23,10 @@ h1 {
     vertical-align: middle;
     display: table-cell;
 }
-#cook, #party, #game {
+
+#cook,
+#party,
+#game {
     display: block;
 }
 
@@ -38,14 +43,22 @@ h1 {
 }
 
 #left-arrow {
-    position: absolute;
-    top:100px;
     background: green;
 }
 
 #right-arrow {
-    position: absolute;
-    left: 605px;
-    top:100px;
+    right:1px;
     background: red;
 }
+
+#left-arrow, #right-arrow {
+    position: absolute;
+    height: 100%;
+}
+
+#space {
+     
+}
+
+
+

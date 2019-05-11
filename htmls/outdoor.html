@@ -16,9 +16,15 @@
   <!--Custom-->
   <link rel="stylesheet" type="text/css" href="../style.css">
   <script src="../jquery.js" type="text/javascript"></script>
+
+  <script>
+    $(function() {
+      $('body').fadeIn(1000);
+    });
+  </script>
 </head>
 
-<body>
+<body style="display:none">
   <div id="outdoor" class="container">
     <h2 class="text-center">Outdoor</h2>
     <div id="family-fun">
@@ -30,11 +36,27 @@
           <button type="button" class="btn btn-info" id="hikebut">Hiking</button>
           <p class="hidden" id="hikeinfo">Hiking with your family can be challenging but it is also fun! While hiking, you can see the beatiful sencery of nature, such as lakes and mountains. <br><br> Here is a suggestion: <a href="https://www.timeout.com/newyork/things-to-do/the-best-hiking-near-nyc">Hiking near NYC</a></p>
         </div>
+
         <div class="col-xs-6">
           <button type="button" class="btn btn-info" id="amusebut">Amusement Park</button>
-          <p class="hidden" id="amuseinfo">Go to the amusement park with your family and ride on those exciting rollercoasters, play mini games, and ending the day off with a ferris wheel ride. <br> <br> Here is a suggestion: <a href="https://lunaparknyc.com/">Luna Park - Coney Island</a></p>
+          <p class="hidden" id="amuseinfo">Go to the amusement park with your family and ride on those exciting rollercoasters, play mini games, and ending the day off with a ferris wheel ride. <br> <br> Here is a suggestion: <a href="https://lunaparknyc.com/">Luna Park-Coney Island</a></p>
         </div>
       </div>
+      
+    </div>
+    
+    <div id="sports">
+      <h4>Sports</h4>
+      <p>As obvious as it sounds, it is fun, yet important, to play sports in the summer. Play sports with your friends, siblings, or your cousin. As hot as it is in the summer, we need to excerise and sports it a good way to do so.</p>
+      <p>Some sports suggestion are: </p>
+      
+      <div class="row row-spacing">
+        <div class="col-xs-6">
+          <button type="button" class="btn btn-info" id="vollebut">Volleyball</button>
+          <p class="hidden" id="volleinfo">One of my personal favorite sport is volleyball.</p>
+        </div>
+      </div>
+      
     </div>
   </div>
 

@@ -22,13 +22,13 @@ $(function() {
     $('#amusebut').click(function(){
         $('#amuseinfo').toggleClass('hidden');
     });
-
-
-    $('#left-arrow').click(function() {
-        
+    
+    $('#vollebut').click(function(){
+        $('#volleinfo').toggleClass('hidden');
     });
 
-
+    
+    
 
 
 
