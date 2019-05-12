@@ -4,14 +4,15 @@ body {
     height: 100%
 }
 
-#landing {
+
+#landing, #indoor, #outdoor {
     display: table;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(30, 175, 237, 0.6),
-    rgba(26, 165, 26, .4)),
-    url('img/landing.jpg') no-repeat center;
-    background-size: cover;
+    /*background: linear-gradient(rgba(30, 175, 237, 0.6),*/
+    /*rgba(26, 165, 26, .4)),*/
+    /*url('img/landing.jpg') no-repeat center;*/
+    /*background-size: cover;*/
 }
 
 h1 {
@@ -38,9 +39,9 @@ h1 {
     margin-bottom: 150px;
 }
 
-#outdoor {
-    padding-bottom: 100px
-}
+/*#outdoor {*/
+/*    padding-bottom: 100px*/
+/*}*/
 
 #left-arrow {
     background: green;
