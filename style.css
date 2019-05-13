@@ -27,11 +27,7 @@ h1 {
     display: table-cell;
 }
 
-#cook,
-#party,
-#game {
-    display: block;
-}
+
 
 .hidden {
     display: none;
