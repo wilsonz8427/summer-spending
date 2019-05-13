@@ -2,28 +2,7 @@ $(function() {
     $('body').fadeIn(1500);
 
 
-    
-
-
-    $('#hikebut').click(function() {
-        $('#hikeinfo').toggleClass('hidden');
-    });
-
-    $('#amusebut').click(function() {
-        $('#amuseinfo').toggleClass('hidden');
-    });
-    
-    $('#vollebut').click(function() {
-        $('#volleinfo').toggleClass('hidden');
-    });
-
-
-
-    var allowSubmit = true;
     $("a").on("click", function(event) {
-        allowSubmit = true;
-console.log(allowSubmit)
-        if (allowSubmit == true) {
             event.preventDefault(); //stops the a automatic change
 
             const href = $(this).attr("href"); //gets the href attribute from the clicked a
@@ -38,16 +17,14 @@ console.log(allowSubmit)
                         const newPage = $(data).filter("section").html(); //gets data from the clicked a href 
                         $("section").html(newPage); //sets the data to the current section
 
-                        $("section").fadeIn(500);
+                        $("section").fadeIn(1250);
                         
                     });
                     
                 }
                 
             });
-            allowSubmit = false
-        }
-console.log(allowSubmit)
+
     });
     
 });

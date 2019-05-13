@@ -27,33 +27,38 @@
 <body>
   <!--http://www.digitalatelier.ro/#/project/speed-connector-->
   <section id="indoor-section">
-    <div id="indoor" style="background-color: lightgray;">
+    <div id="indoor" style="background-color: lightgray; padding-bottom: 10px;">
       <h1>INDOOR</h1>
-
-      <div class="row">
+      <div class="container">
+        <p>When summer is too hot to go outside, you can still have fun indoors</p>
         <div class="col-sm-6">
-          <button type="button" class="btn btn-info" id="cook">Cooking</button><br>
-          <p class="hidden" id="cookp">
-            Cooking is a fun activity to do at home with your family or just by yourself. There are many recipes you can try during the summer. Many of those include
-          </p>
+          <div>
+            <button type="button" class="btn btn-info" id="cook" style="margin: 10px;">Cooking</button><br>
+            <p class="hidden" id="cookp">
+              Cooking is a fun activity to do at home with your family or just by yourself. There are many recipes you can try during the summer.
+              <br><br>Suggestion: <a href="https://www.cookinglight.com/food/quick-healthy/quick-easy-summer-recipes">Quick Recipes</a></p>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-info" id="game" style="margin: 10px;">Games</button><br>
+            <p class="hidden" id="gamep">
+              Fun games to do in the summer can include digital games and/or real world games that you can play as a family
+              <br><br>Suggestion: <a href="http://hative.com/indoor-summer-activities-for-kids/">Activities</a></p>
+          </div>
         </div>
 
         <div class="col-sm-6">
-          <button type="button" class="btn btn-info" id="game">Games</button><br>
-          <p class="hidden" id="gamep">
-            Fun games to do in the summer can include digital games and/or
-          </p>
-        </div>
+          <div>
+            <button type="button" class="btn btn-info" id="party" style="margin: 10px;">Parties</button><br>
+            <p class="hidden" id="partyp">There are many parties you can hold in the summer. For example sleep overs or block parties
+            </p>
+          </div>
 
-        <div class="col-sm-6">
-          <button type="button" class="btn btn-info" id="party">Parties</button><br>
-          <p class="hidden" id="partyp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-sm-6">
-          <button type="button" class="btn btn-info">Cooking</button><br>
-          <p id="abc" class="hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div>
+            <button type="button" class="btn btn-info" id="chore" style="margin: 10px;">Chores</button><br>
+            <p id="chorep" class="hidden">Of course you can't forget about the most important thing: chores. These can include cleaning up the house or just DO YOUR HOMEWORK
+              <br><br>Suggestion: <a href="https://www.care.com/c/stories/5933/ultimate-household-chore-list/">List of Chores</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -68,6 +73,9 @@
 
       $('#party').click(function() {
         $('#partyp').toggleClass('hidden');
+      });
+      $('#chore').click(function() {
+        $('#chorep').toggleClass('hidden');
       });
     </script>
   </section>

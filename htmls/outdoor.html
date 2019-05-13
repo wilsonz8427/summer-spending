@@ -27,7 +27,7 @@
 <body style="display:none">
   <section id="outdoor">
     <div id="outdoor" style="background-color: #bcf4bc; padding:15px">
-      <h2 class="text-center">Outdoor</h2>
+      <h1 class="text-center">Outdoor</h2>
 
       <div id="family-fun">
         <h4>Family Trip</h4>
@@ -35,12 +35,12 @@
         <p> Some ideas could be:</p>
 
         <div class="row row-spacing">
-          <div class="col-xs-6">
-            <button type="button" class="btn btn-info" id="hikebut">Hiking</button>
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-info" id="hikebut" style="margin: 10px;">Hiking</button>
             <p class="hidden" id="hikeinfo">Hiking with your family can be challenging but it is also fun! While hiking, you can see the beatiful sencery of nature, such as lakes and mountains. <br><br> Suggestion: <a href="https://www.timeout.com/newyork/things-to-do/the-best-hiking-near-nyc">TimeOut - Hiking Near NYC</a></p>
           </div>
-          <div class="col-xs-6">
-            <button type="button" class="btn btn-info" id="amusebut">Amusement Park</button>
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-info" id="amusebut" style="margin: 10px;">Amusement<br>Park</button>
             <p class="hidden" id="amuseinfo">Go to the amusement park with your family and ride on those exciting rollercoasters, play mini games, and ending the day off with a ferris wheel ride. <br> <br> Suggestion: <a href="https://lunaparknyc.com/">Luna Park - Coney Island</a></p>
           </div>
         </div>
@@ -52,7 +52,7 @@
         <p>Some sports suggestion are: </p>
 
         <div class="row row-spacing">
-          <div class="col-xs-6">
+          <div class="col-sm-6 col-sm-offset-3">
             <button type="button" class="btn btn-info" id="vollebut">Volleyball</button>
             <p class="hidden" id="volleinfo">One of my personal favorite sport is volleyball. Volleyball is a team sport where you have to be quick and work closely with your teammate to succeed. <br><br> A how to: <a href="https://www.wikihow.com/Play-Volleyball">WikiHow - Play Volleyball</a></p>
           </div>
@@ -60,7 +60,19 @@
       </div>
     </div>
 
+    <script>
+      $('#hikebut').click(function() {
+        $('#hikeinfo').toggleClass('hidden');
+      });
 
+      $('#amusebut').click(function() {
+        $('#amuseinfo').toggleClass('hidden');
+      });
+
+      $('#vollebut').click(function() {
+        $('#volleinfo').toggleClass('hidden');
+      });
+    </script>
   </section>
 
 </body>
