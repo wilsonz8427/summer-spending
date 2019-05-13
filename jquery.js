@@ -22,6 +22,10 @@ $(function() {
     $('#amusebut').click(function() {
         $('#amuseinfo').toggleClass('hidden');
     });
+    
+    $('#vollebut').click(function() {
+        $('#volleinfo').toggleClass('hidden');
+    });
 
 
 
@@ -45,22 +49,5 @@ $(function() {
             }
         });
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 });
